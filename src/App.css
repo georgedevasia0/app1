@@ -1,38 +1,42 @@
-.App {
+.main-row{
+  background-color: #2B859D;
+}
+.h4{
+  color: #7F7F7F;
+}
+.hr{
+  width: 33%;
+  background-color: #2B859D;
+  height: 3px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.hr1{
+  width: 33%;
+}
+.hr2{
+  width: 13%;
+}
+.social-signin{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.social-signin button{
+    width: 40%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn{
+  background-color: #2B859D !important;
+  border: none !important;
+  border-radius: 25px !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.border1{
+  border-top: 0 !important;
+  border-right:  0 !important;
+  border-left:  0 !important;
+  border-bottom: 1px solid #7F7F7F !important;
+  border-radius: 0 !important;
 }
